@@ -1,0 +1,239 @@
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+
+.logout {
+  margin-left: auto;
+}
+
+marquee {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #000;
+  padding: 10px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20}
+.content {
+  display: none;
+  padding: 16px;
+}
+
+.content.show {
+  display: block;
+}
+
+
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="file"]:focus {
+    outline: none;
+    border-color: #0066ff;
+    box-shadow: 0px 2px 5px rgba(0, 102, 255, 0.5);
+  }
+  .dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000000;
+  }
+  
+  .btn-secondary {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-secondary:hover {
+    color: #ffffff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle:hover {
+    background-color: #0069d9;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 8px 0;
+    min-width: 150px;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .duration-input{
+    text-align: center;
+  color: #040608;
+  font-size: larger;
+  padding-right: 90px;
+}
+  .interval-selector{
+
+    padding-top: 20px;
+    padding-left: 7px;
+    color: #020304;
+    font-size: larger;
+  }
+.get{
+  
+    width: 300px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #e20bea;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 70px;
+    margin-top: 30px;
+    margin-left: 650px;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  
+}
+.file-upload{
+    padding-bottom: 30px;
+    color: #0c0c0d;
+    font-size: larger;
+
+}
+
+.week{
+  padding-top: 30px;
+  padding-left: 90px;
+
+}
+
+.my-button:hover {
+  background-color: #00d92f;
+}
+.my-button {
+  background-color: #e92a2a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #00d957;
+}
+.post{
+  background-color: rosybrown;
+}
+body{
+ 
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+
+}
+select {
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: px;
+  background-color: #fff;
+  color: #333;
+}
+input[type="number"] {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 80px;
+  box-sizing: border-box;
+}
+.logout{
+  padding-left: 950px;
+}
+body {
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  background: linear-gradient(to right, #FF0000, #FFFF00);
+  background: linear-gradient(to bottom, #FFC0CB, #FF69B4, #FF1493);
+}
+
+
